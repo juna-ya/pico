@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-01{
+    height: 100%;
+    position: relative;
+}
+.section-01 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-01 .text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* 수평정렬 양끝에 붙여서정렬 */
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.section-01 .text h2{
+    font-size: 60px;
+    line-height: 97.5px;
+    display: block;
+}
+.section-01 .text p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+    
+}
+.section-02 {
+    width: 1280px;
+    margin: 160px auto;
+}
+.section-02 h3{
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 57.6px;
+
+}
